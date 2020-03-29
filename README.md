@@ -1,4 +1,4 @@
-<img align="left;" width="400" src="Images/geektechstuff_docker.png"><img align="right" width="400" src="Images/16_kubernetes-512.png">
+<img align="left;" width="300" src="Images/geektechstuff_docker.png"><img align="right" width="300" src="Images/16_kubernetes-512.png">
 
 # Fun-With-Docker 
 This is the beginning of learning Docker and K8s. 
