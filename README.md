@@ -1,6 +1,6 @@
-<img align="left;" width="300" src="Images/geektechstuff_docker.png"><img align="right" width="300" src="Images/16_kubernetes-512.png">
+<img align="center" width="300" src="Images/geektechstuff_docker.png">
 
-# Fun-With-Docker 
+# Fun-With-Docker:
 This is the beginning of learning Docker and K8s. 
 
 **Docker** is a tool which is used to automate the deployments of an application in lightweight containers so that application can work efficiently in different environments 
