@@ -1,13 +1,12 @@
-<img align="center;" width="336" height="270" src="Images/geektechstuff_docker.png">
-
+<p align="center">
+ <img width="336" height="270" src="Images/geektechstuff_docker.png">
+</p>
 # Fun-With-Docker:
 This is the beginning of learning Docker and K8s. 
 
 **Docker** is a tool which is used to automate the deployments of an application in lightweight containers so that application can work efficiently in different environments 
 
 The **Biggest difference** between Containers and Virtual Machines is that the container are quiet different as they all shares one kernel and the virtual machines have a seperate kernel running in each and the containers don't use the principle of virtualization its just using a kernel for different operating os.
-
-
 
 ### Features:
  - Multiple containers can run on the same hardware
@@ -30,6 +29,10 @@ sudo apt-get install docker docker.io
 - Learning Concepts 
 - Learning Commands
 - Fun Excercises
+
+## Contributions :
+
+As of now we don't accept contributions. It is a fun project so start learning and have fun :+1:
 
 ## Author :
 
