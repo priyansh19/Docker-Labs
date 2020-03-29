@@ -1,8 +1,10 @@
 <p align="center">
  <img width="336" height="270" src="Images/geektechstuff_docker.png">
 </p>
+
 # Fun-With-Docker:
-This is the beginning of learning Docker and K8s. 
+
+This is the beginning of learning Docker from basics. 
 
 **Docker** is a tool which is used to automate the deployments of an application in lightweight containers so that application can work efficiently in different environments 
 
@@ -21,11 +23,17 @@ To install docker in Linux type the following set of commands
 
 ```shell 
 sudo apt-get install docker docker.io
+
+// To verify your installation try this -
+
+sudo docker run hello-world
+
+// You will see a message "Hello from Docker!"
 ```
 
 ## Objectives :
 
-- Getting Started With Docker and Kubernetes 
+- Getting Started With Docker
 - Learning Concepts 
 - Learning Commands
 - Fun Excercises
