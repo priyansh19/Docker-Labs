@@ -41,6 +41,10 @@ sudo docker run hello-world
 - Learning Commands
 - Fun Excercises
 
+## Excersise 1 :
+
+Learning about Docker and its architechture [link]()
+
 ## Contributions :
 
 As of now we don't accept contributions. It is a fun project so start learning and have fun :+1:
