@@ -8,12 +8,17 @@ This is the beginning of learning Docker from basics.
 
 The **Biggest difference** between Containers and Virtual Machines is that the container are quiet different as they all shares one kernel and the virtual machines have a seperate kernel running in each and the containers don't use the principle of virtualization its just using a kernel for different operating os.
 
+### Is Docker Useful for GUI Applications?
+
+
+
 ### Features:
+
  - Multiple containers can run on the same hardware
  - high productivity as it uses the same kernel as of the os 
  - maintains isolated applications so that thier dependencies do clash with each other
  - Ouick and easily configurable virtual machines
- 
+ - We can share our images with other users very easily 
 
 ## Installation of Docker in Linux :
 
