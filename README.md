@@ -2,8 +2,6 @@
  <img width="336" height="270" src="Images/geektechstuff_docker.png">
 </p>
 
-# Fun-With-Docker:
-
 This is the beginning of learning Docker from basics. 
 
 **Docker** is a tool which is used to automate the deployments of an application in lightweight containers so that application can work efficiently in different environments 
