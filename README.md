@@ -10,7 +10,7 @@ The **Biggest difference** between Containers and Virtual Machines is that the c
 
 ### Is Docker Useful for GUI Applications?
 
-
+Docker could help solve some challenges associated with desktop apps. For example, it could enable truly platform-agnostic app packages. We’ve come a long way since the days when you had to compile your app from source to make it run on your system. But most installation packages available today are still tied to a particular Linux distribution or version of Windows. With Docker, it finally would be possible to have a single package format for installing a given application on any Linux or Windows system.
 
 ### Features:
 
