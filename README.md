@@ -21,7 +21,6 @@ Docker could help solve some challenges associated with desktop apps. For exampl
 * Long time to setup similar environment for a new user
 * There are different environments with different dependencies for development/Testing and for production as well 
 
-
 ### Features:
 
  - Multiple containers can run on the same hardware
@@ -51,9 +50,11 @@ sudo docker run hello-world
 - Learning Commands
 - Fun Excercises
 
-## Excersise 1 :
+## Excersises :
 
-Learning about Docker and its architechture [link]()
+1. Learning about Docker and its architechture [link]()
+
+2. Docker Basic Commands [link]()
 
 ## Contributions :
 
