@@ -32,14 +32,16 @@ Docker could help solve some challenges associated with desktop apps. For exampl
 
 ### Components of Docker architechture are :
 
-**Client**
+**Docker Client**
 
 - It is the primary way to interact with Docker. When we use commands like Docker run it is the client which sends this command to docker daemon which then executes the command.
 
 **Docker Host or Docker Daemon**
 
--
+- The Docker daemon (dockerd) listens for Docker API requests and manages Docker objects such as images, containers, networks, and volumes. A daemon can also communicate with other daemons to manage Docker services.
 
-**Registry**
+**Docker Registry**
 
--
+- A Docker registry stores Docker images. Docker Hub is a public registry that anyone can use, and Docker is configured to look for images on Docker Hub by default. You can even run your own private registry. If you use Docker Datacenter (DDC), it includes Docker Trusted Registry (DTR).
+
+When you use the docker pull or docker run commands, the required images are pulled from your configured registry. When you use the docker push command, your image is pushed to your configured registry.
