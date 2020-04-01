@@ -24,7 +24,10 @@ Docker could help solve some challenges associated with desktop apps. For exampl
 * Long time to setup similar environment for a new user
 * There are different environments with different dependencies for development/Testing and for production as well 
 
-# Architechture of Docker
+## Architechture of Docker
 
+<p align='center'>
+	<img width="336" height="270" src="https://github.com/priyansh19/Fun-With-Docker/blob/master/Images/architechture.webp">
+</p>
 
 
