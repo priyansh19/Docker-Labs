@@ -30,4 +30,16 @@ Docker could help solve some challenges associated with desktop apps. For exampl
 	<img src="https://github.com/priyansh19/Fun-With-Docker/blob/master/Images/architechture.webp">
 </p>
 
+### Components of Docker architechture are :
 
+**Client**
+
+- It is the primary way to interact with Docker. When we use commands like Docker run it is the client which sends this command to docker daemon which then executes the command.
+
+**Docker Host or Docker Daemon**
+
+-
+
+**Registry**
+
+-
