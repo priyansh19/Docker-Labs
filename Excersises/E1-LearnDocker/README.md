@@ -3,7 +3,7 @@
 **Docker** is a tool used to automate the deployments of an application in lightweight containers so that application can work efficiently in different environments 
 
 <p align='center'>
-	<img width="336" height="270" src="~/Images/geektechstuff_docker.png">
+	<img width="336" height="270" src="https://github.com/priyansh19/Fun-With-Docker/blob/master/Images/geektechstuff_docker.png">
 </p>
 
 ## What are containers ?
