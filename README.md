@@ -37,7 +37,7 @@ sudo docker run hello-world
 
 ## Excersises :
 
-1. Learning about Docker and its architechture [link]()
+1. Learning about Docker and its architechture [link](https://github.com/priyansh19/Fun-With-Docker/tree/master/Excersises/E1-LearnDocker)
 
 2. Installing OS Images [link]()
 
