@@ -56,6 +56,12 @@ sudo docker run hello-world
 
 2. Docker Basic Commands [link]()
 
+3. Building your very own first DOCKERFILE [link]()
+
+4. Installing Dependencies in Docker [link]()
+
+5. Configuring Containers [link]()
+
 ## Contributions :
 
 As of now we don't accept contributions. It is a fun project so start learning and have fun :+1:
