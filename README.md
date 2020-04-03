@@ -19,13 +19,32 @@ This is the beginning of learning Docker from basics.
 To install docker in Linux type the following set of commands
 
 ```shell 
-sudo apt-get install docker docker.io
+
+// adding repository for downloading CE version of repository
+$ curl -fsSL https://get.docker.com -o get-docker.sh
+
+// Just run this command for automated script to get executed
+$ sudo sh get-docker.sh
 
 // To verify your installation try this -
+sudo docker run docker/whalesay cowsay Hello-from-docker!
 
-sudo docker run hello-world
+// You will show a message "Hello from Docker!"
+ ____________________ 
+< Hello-from-docker! >
+ -------------------- 
+    \
+     \
+      \     
+                    ##        .            
+              ## ## ##       ==            
+           ## ## ## ##      ===            
+       /""""""""""""""""___/ ===        
+  ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~   
+       \______ o          __/            
+        \    \        __/             
+          \____\______/   
 
-// You will see a message "Hello from Docker!"
 ```
 
 ## Objectives :
@@ -37,7 +56,7 @@ sudo docker run hello-world
 
 ## Excersises :
 
-1. Learning about Docker and its architechture [link](https://github.com/priyansh19/Fun-With-Docker/tree/master/Excersises/E1-LearnDocker)
+1. Learning about Docker and its architechture [link](https://github.com/priyansh19/Fun-With-Docker/blob/master/E1-LearnDocker/README.md)
 
 2. Installing OS Images [link]()
 
