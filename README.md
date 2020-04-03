@@ -27,9 +27,24 @@ $ curl -fsSL https://get.docker.com -o get-docker.sh
 $ sudo sh get-docker.sh
 
 // To verify your installation try this -
-sudo docker run hello-world
+sudo docker run docker/whalesay cowsay Hello-from-docker!
 
-// You will see a message "Hello from Docker!"
+// You will show a message "Hello from Docker!"
+ ____________________ 
+< Hello-from-docker! >
+ -------------------- 
+    \
+     \
+      \     
+                    ##        .            
+              ## ## ##       ==            
+           ## ## ## ##      ===            
+       /""""""""""""""""___/ ===        
+  ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~   
+       \______ o          __/            
+        \    \        __/             
+          \____\______/   
+
 ```
 
 ## Objectives :
