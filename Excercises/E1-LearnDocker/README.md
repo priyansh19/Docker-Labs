@@ -13,7 +13,7 @@
 The **Biggest difference** between Containers and Virtual Machines is that the container are quiet different as they all shares one kernel and the virtual machines have a seperate kernel running in each and the containers don't use the principle of virtualization its just using a kernel for different operating os.
 
 <p align='center'>
-	<img src='https://github.com/priyansh19/Fun-With-Docker/blob/master/Images/Containers_vs_images.png'>
+	<img width="450" height="850" src='https://github.com/priyansh19/Fun-With-Docker/blob/master/Images/Containers_vs_images.png'>
 </p>
 
 Docker can't run Windows OS with different kernel on the same hardware with linux containers because unlike Hypervisors, Docker is not meant to run and virtualise different Operating Systems and kernels on same hardware. The main aim of Docker is to package, maintain an environment and to ship them and to run them anywhere and as many times as you want.
