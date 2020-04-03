@@ -56,7 +56,7 @@ sudo docker run docker/whalesay cowsay Hello-from-docker!
 
 ## Excersises :
 
-1. Learning about Docker and its architechture [link](https://github.com/priyansh19/Fun-With-Docker/tree/master/Excersises/E1-LearnDocker)
+1. Learning about Docker and its architechture [link](https://github.com/priyansh19/Fun-With-Docker/blob/master/E1-LearnDocker/README.md)
 
 2. Installing OS Images [link]()
 
