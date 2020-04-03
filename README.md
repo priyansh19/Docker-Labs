@@ -19,10 +19,14 @@ This is the beginning of learning Docker from basics.
 To install docker in Linux type the following set of commands
 
 ```shell 
-sudo apt-get install docker docker.io
+
+// adding repository for downloading CE version of repository
+$ curl -fsSL https://get.docker.com -o get-docker.sh
+
+// Just run this command for automated script to get executed
+$ sudo sh get-docker.sh
 
 // To verify your installation try this -
-
 sudo docker run hello-world
 
 // You will see a message "Hello from Docker!"
