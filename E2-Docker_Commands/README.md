@@ -76,7 +76,11 @@ $ sudo docker rmi nginx
 
 ``` 
 
-## 
+## Docker pull Command:
+
+It is used to directly pull the images from docker hub .. if our image is already present locally then it check for any updates for the image 
+
+ 
 
 
 
