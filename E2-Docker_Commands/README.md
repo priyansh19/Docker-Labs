@@ -1,4 +1,4 @@
-## Basic Docker Commands
+# Docker Commands
 
 As of now we are done with installation part of docker-ce. If you haven't done it till now then go to the [README.md](https://github.com/priyansh19/Fun-With-Docker/blob/master/README.md) 
 
@@ -11,7 +11,7 @@ Now let's start learning Basic docker Commands with thier hands-on ..
 |_____\___/ \__,_|\__,_|_|_| |_|\__, | |____/ \___/ \___|_|\_\___|_|    (_) (_)
                                 |___/                                          
 ```
-# Docker **Run** Command:
+### Docker **Run** Command:
 
 This command will run **nginx** container if the image is present locally **but** if not then docker will automatically pull docker/nginx image from docker hub (By default docker is configured to pull from docker hub).
 
