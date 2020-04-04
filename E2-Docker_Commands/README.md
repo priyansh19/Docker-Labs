@@ -67,7 +67,16 @@ It lists all the images of containers present locally in your machine
 $ sudo docker images //-list all images present
 
 ```
+## Docker rmi command:
 
+It is used to remove an image which we no longer plan to use .. but remember you must ensure remove or stop all the running containers linked to it
+
+```shell
+$ sudo docker rmi nginx
+
+``` 
+
+## 
 
 
 
