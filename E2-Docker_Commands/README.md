@@ -12,7 +12,6 @@ Now let's start learning Basic docker Commands with thier hands-on ..
                                 |___/                                          
 ```
 1. Docker **Run** Command:
-
 This command will run **nginx** container if the image is present locally **but** if not then docker will automatically pull docker/nginx image from docker hub (By default docker is configured to pull from docker hub).
 
 ```shell
@@ -26,4 +25,4 @@ ffadbd415ab7: Already exists
 Digest: sha256:282530fcb7cd19f3848c7b611043f82ae4be3781cb00105a1d593d7e6286b596
 Status: Downloaded newer image for nginx:latest
 ``` 
-Clearly in my case the image was not present locally so docker pulled it from library/nginx.
+	Clearly in my case the image was not present locally so docker pulled it from library/nginx.
