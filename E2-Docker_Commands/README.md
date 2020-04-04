@@ -30,9 +30,74 @@ Note : Alpine is a minimal linux for a Docker.
 
 ## Docker ps Command:
 
-It is used for listing all the running containers in the system it also shows the basic information about them like 
+It is used for listing all the running containers in the system it also shows the basic information about them like CONTAINER ID, IMAGE, CREATED and few more .. 
+By Default it shows only the running containers.
 
 ```shell
 $ sudo docker ps
+
+```
+## Docker stop Command:
+
+It is used to stop a running container. From **docker ps** we will get a container id or container name used int the command to stop a container.
+
+```shell
+$ sudo docker stop "CONTAINER ID or Container Name"
+```
+On the succesfull execution of command we get the name of container printed as a output.
+
+## Docker Rm - Remove Command:
+
+If we don't want this container lying around and aquire our physical memory, We use **docker rm** command to permanently remove these exited or unsed containers.
+
+```shell
+$ sudo docker rm -f "CONTAINER ID"
+
+// -f for doing it forcefully
+
+```   
+
+## Docker images Command:
+
+It lists all the images of containers present locally in your machine
+
+```shell
+$ sudo docker 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
