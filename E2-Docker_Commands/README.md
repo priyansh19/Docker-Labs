@@ -34,7 +34,9 @@ It is used for listing all the running containers in the system it also shows th
 By Default it shows only the running containers.
 
 ```shell
-$ sudo docker ps
+$ sudo docker ps // default case
+
+$ sudo docker ps -a // list all containers 
 
 ```
 ## Docker stop Command:
@@ -62,7 +64,9 @@ $ sudo docker rm -f "CONTAINER ID"
 It lists all the images of containers present locally in your machine
 
 ```shell
-$ sudo docker 
+$ sudo docker images //-list all images present
+
+```
 
 
 
