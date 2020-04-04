@@ -11,7 +11,7 @@ Now let's start learning Basic docker Commands with thier hands-on ..
 |_____\___/ \__,_|\__,_|_|_| |_|\__, | |____/ \___/ \___|_|\_\___|_|    (_) (_)
                                 |___/                                          
 ```
-##1. Docker **Run** Command:
+## Docker Run Command:
 
 This command will run **nginx** container if the image is present locally **but** if not then docker will automatically pull docker/nginx image from docker hub (By default docker is configured to pull from docker hub).
 
