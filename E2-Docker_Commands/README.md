@@ -78,9 +78,23 @@ $ sudo docker rmi nginx
 
 ## Docker pull Command:
 
-It is used to directly pull the images from docker hub .. if our image is already present locally then it check for any updates for the image 
+It is used to directly pull the images from docker hub without running it .. if our image is already present locally then it check for any updates. 
 
- 
+```shell
+$ sudo docker pull nginx
+```
+
+## Docker exec Command:
+
+It is used for executing a command or a specific task in a container. 
+
+```shell
+$ sudo docker exec <NAME of CONTAINER> cat etc/hosts
+
+// will display the contents of /etc/hosts of that container
+```
+
+
 
 
 
