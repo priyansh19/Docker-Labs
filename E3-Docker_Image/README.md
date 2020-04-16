@@ -23,15 +23,18 @@ It contains two thing i.e:
 ```shell
 ## Sample Dockerfile
 ## It is must that dockerfiles should start with FROM Instruction
-
-
-
-
-
-
+FROM ubuntu:latest
+## RUN is used to install dependencies in containers
+RUN apt-get update
+## COPY is used to copy files from our local system to new docker container
+COPY . /opt/source-code/
+## ENTRYPOINT allows us to run a command when the image boots up
+ENTRYPOINT EXAMPLE=/opt/source-code/ex.py python run
 ```
 
-I have pushed this image to my public docker registry [link]() 
+Docker uses a layered architechture in building the docker images, each layer only stores the changes from the previous layer hence it helps us to restart the build process of the image from where it fails.
+
+I have pushed this image to my public docker registry [link](https://hub.docker.com/repository/docker/priyansh19/custom-html-app) 
 
 It contains a sample application in html
 
