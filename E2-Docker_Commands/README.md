@@ -144,6 +144,7 @@ $ sudo docker container inspect CONTAINER_ID
 //or
 
 $ sudo docker service inspect SERVICE_NAME
+
 ```
 
 Inspect command is used to see all the details of a Docker Containers, Images, Objects and Services like its id, name, path, args and all other states and mounting options.sla
