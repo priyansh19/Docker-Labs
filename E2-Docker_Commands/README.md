@@ -116,14 +116,6 @@ $ docker run -v /opt/datadir:/var/lib/mysql <mysql container name>
 
 -v is used to mount this data volume externally so that if we do **rm or stop** in containers then none of the data gets lost it will be redirected every time there is an update in time stamp of the data in container directory
 
-## Docker Inspection command:
-
-```shell
-$ docker inspect <name of the container>
-```
-
-inspect is used to see all the details of a container like its id, name, path, args and all other states and mounting options also there 
-
 ## Docker logs command
 
 ```shell
@@ -141,6 +133,16 @@ docker run -e App_colour="blue" <application name>
 ```
 
 here -e is used to pass variable value into the container application file
+
+## Docker Inspection command:
+
+```shell
+$ docker inspect <name of the container>
+```
+
+Inspect command is used to see all the details of a Docker Containers, Images, Objects and Services like its id, name, path, args and all other states and mounting options.sla
+
+For results of some objects to be in more human readble output format you can provide a "--pretty" flag. 
 
 
 
