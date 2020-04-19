@@ -138,9 +138,11 @@ here -e is used to pass variable value into the container application file
 
 ```shell
 $ sudo docker inspect OBJECT_ID
+
 //or
 
 $ sudo docker container inspect CONTAINER_ID
+
 //or
 
 $ sudo docker service inspect SERVICE_NAME
