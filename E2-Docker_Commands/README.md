@@ -137,7 +137,15 @@ here -e is used to pass variable value into the container application file
 ## Docker Inspection command:
 
 ```shell
-$ docker inspect <name of the container>
+$ sudo docker inspect OBJECT_ID
+
+//or
+
+$ sudo docker container inspect CONTAINER_ID
+
+//or
+
+$ sudo docker service inspect SERVICE_NAME
 ```
 
 Inspect command is used to see all the details of a Docker Containers, Images, Objects and Services like its id, name, path, args and all other states and mounting options.sla
