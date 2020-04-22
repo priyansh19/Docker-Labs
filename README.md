@@ -61,13 +61,15 @@ sudo docker run docker/whalesay cowsay Hello-from-docker!
 
 2. Docker Basic Commands [link](https://github.com/priyansh19/Fun-With-Docker/blob/master/E2-Docker_Commands/README.md)
 
-3. Constructing custom OS Images [link]()
+3. Constructing custom OS Images [link](https://github.com/priyansh19/Docker/blob/master/E3-Docker_Image/README.md)
 
-4. Building your very own first DOCKERFILE [link]()
+4. Building your very own first DOCKERFILE [link](https://github.com/priyansh19/Docker/blob/master/E3-Docker_Image/README.md)
 
-5. Installing Dependencies in Docker [link]()
+5. Docker Compose [link]()
 
-6. Configuring Containers [link]()
+6. Installing Dependencies in Docker [link]()
+
+7. Configuring Containers [link]()
 
 ## Contributions :
 
