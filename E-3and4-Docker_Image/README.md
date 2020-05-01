@@ -7,7 +7,7 @@ Open your text editor and make a file "Dockerfile" [Like](https://github.com/pri
 Once done save the file and buld your docker container using this command:
 
 ```shell
-sudo docker build . -t priyansh19/custom-html-app
+sudo docker build -f custom-html-app -t priyansh19/custom-html-app
 ```
 
 Now Let's Understand the structure of Dockerfile we built
