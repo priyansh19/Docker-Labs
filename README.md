@@ -65,11 +65,11 @@ sudo docker run docker/whalesay cowsay Hello-from-docker!
 
 4. Building your very own first DOCKERFILE [link](https://github.com/priyansh19/Docker/blob/master/E3-Docker_Image/README.md)
 
-5. Docker Compose [link]()
+5. Exploring Docker Networks [link]()
 
-6. Installing Dependencies in Docker [link]()
+6. Configuring a docker network for multiple containers [link]()
 
-7. Configuring Containers [link]()
+7. Docker Compose [link]()
 
 ## Contributions :
 
