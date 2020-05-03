@@ -26,5 +26,12 @@ $ sudo docker network -d <Network type> <nameOfNetwork>
 
 // here -d is simply used for specifying network type 
 ```
+To connect with a network we have two ways :
+
+- To directly attach network type while we start the instance along with command
+
+```powershell
+$ sudo docker run -it --net=<NameOfNetwork> <ContainerName>
+```
 
 
