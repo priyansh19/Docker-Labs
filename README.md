@@ -65,7 +65,7 @@ sudo docker run docker/whalesay cowsay Hello-from-docker!
 
 4. Building your very own first DOCKERFILE [link](https://github.com/priyansh19/Docker/blob/master/E3-Docker_Image/README.md)
 
-5. Exploring Docker Networks [link]()
+5. Exploring Docker Networks [link](https://github.com/priyansh19/Docker/blob/master/E5-Docker_Networks/README.md)
 
 6. Configuring a docker network for multiple containers [link]()
 
