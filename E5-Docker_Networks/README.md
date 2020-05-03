@@ -30,8 +30,13 @@ To connect with a network we have two ways :
 
 - To directly attach network type while we start the instance along with command
 
-```powershell
+```shell
 $ sudo docker run -it --net=<NameOfNetwork> <ContainerName>
 ```
+- To add an endpoint of a network while container is running
+// Docker networking allows you to connect you to as many as containers you want with a single network
 
+```shell
+$ sudo docker connect <NetworkName> <ContainerName>
+```
 
