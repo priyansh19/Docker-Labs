@@ -67,7 +67,7 @@ sudo docker run docker/whalesay cowsay Hello-from-docker!
 
 5. Exploring Docker Networks [link](https://github.com/priyansh19/Docker/blob/master/E5-Docker_Networks/README.md)
 
-6. Configuring a docker network for multiple containers [link]()
+6. Configuring a docker network for multiple containers [link](https://github.com/priyansh19/Docker/blob/master/E6-Docker_Network_Example/README.md)
 
 7. Docker Compose [link]()
 
