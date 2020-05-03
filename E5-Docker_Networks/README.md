@@ -14,19 +14,19 @@ In this excersise we will learn how to configure two container using a custom do
 
 ## Docker commands for networking:
 
-To list all the networks we have in our docker use 
+#### To list all the networks we have in our docker use 
 
 ```shell
 $ sudo docker network ls
 ```
-Creating a docker network 
+#### Creating a docker network 
 
 ```shell
 $ sudo docker network -d <Network type> <nameOfNetwork>
 
 // here -d is simply used for specifying network type 
 ```
-To connect with a network we have two ways :
+#### To connect with a network we have two ways :
 
 - To directly attach network type while we start the instance along with command
 
@@ -37,6 +37,10 @@ $ sudo docker run -it --net=<NameOfNetwork> <ContainerName>
 // Docker networking allows you to connect you to as many as containers you want with a single network
 
 ```shell
-$ sudo docker connect <NetworkName> <ContainerName>
+$ sudo docker network connect <NetworkName> <ContainerName>
 ```
+#### Disconnecting a container from a network
 
+```shell
+$ sudo docker network disconnect <NameOfNetwork> <NameOfContainer> 
+```
