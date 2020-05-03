@@ -1,4 +1,4 @@
-# Exploring Docker Networks
+# Exploring Docker Networks..:
 
 In this excersise we will learn how to configure two container using a custom docker network. When we use conecpt of containerisation it need strong hold on networking also. In docker we have 5 types of network connections..
 
@@ -11,4 +11,20 @@ In this excersise we will learn how to configure two container using a custom do
 - macvlan: Macvlan networks allow you to assign a MAC address to a container, making it appear as a physical device on your network. The Docker daemon routes traffic to containers by their MAC addresses. Using the macvlan driver is sometimes the best choice when dealing with legacy applications that expect to be directly connected to the physical network, rather than routed through the Docker host’s network stack. 
 
 - none: For this container, disable all networking. Usually used in conjunction with a custom network driver. none is not available for swarm services. 
+
+## Docker commands for networking:
+
+To list all the networks we have in our docker use 
+
+```shell
+$ sudo docker network ls
+```
+Creating a docker network 
+
+```shell
+$ sudo docker network -d <Network type> <nameOfNetwork>
+
+// here -d is simply used for specifying network type 
+```
+
 
